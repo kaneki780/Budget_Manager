@@ -2,19 +2,27 @@
 
 This project is a Java application designed to help users manage their personal budget effectively. The application includes features for adding income, recording purchases across various categories, viewing purchase lists, checking the balance, saving and loading purchase data, and analyzing purchase patterns.
 
-Key Components:
-Categories Enumeration:
+###Key Components:
+##Categories Enumeration:
+
 The Categories enum class defines various categories of purchases: FOOD, ENTERTAINMENT, CLOTHES, and OTHER. Each category has a description and an ID for easy identification and management.
 
 findById(int id): Returns the category corresponding to the given ID.
+
 showAll(): Returns a string listing all categories with their IDs and descriptions.
-Main Application Logic:
+
+##Main Application Logic:
+
 The Main class is the core of the application, managing user interactions and the overall workflow.
 
-main(String[] args): The entry point of the application, displaying a menu and handling user inputs for various operations such as adding income, making purchases, viewing the balance, saving, loading, and analyzing data.
-income(): Allows the user to add income to the current balance.
-purchase(): Facilitates the addition of new purchases, categorized by type.
-list(): Displays all purchases, optionally filtered by category.
+###main(String[] args): 
+The entry point of the application, displaying a menu and handling user inputs for various operations such as adding income, making purchases, viewing the balance, saving, loading, and analyzing data.
+###income():
+Allows the user to add income to the current balance.
+###purchase():
+Facilitates the addition of new purchases, categorized by type.
+###list():
+Displays all purchases, optionally filtered by category.
 balance(): Shows the current balance.
 save(): Saves the current state (balance and purchases) to a file.
 load(): Loads the state from a file.
