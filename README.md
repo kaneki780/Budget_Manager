@@ -98,14 +98,6 @@ Debt $3.50
 Great Value Broccoli Florets $1.00
 Total sum: $249.79
 
-Choose the type of purchase
-1) Food
-2) Entertainment
-3) Clothes
-4) Other
-5) All
-6) Back
-> 6
 
 Choose your action:
 1) Add income
