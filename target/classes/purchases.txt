@@ -1,2 +1,16 @@
-0.0
-FOOD#Loda#10.0
+14000
+ENTERTAINMENT#Movie_Ticket#250
+FOOD#Rice#50
+FOOD#Cadbury's milk chocolate#120
+FOOD#Milk#60
+FOOD#Apples#90
+FOOD#Eggs#30
+FOOD#Almond 250g#250
+FOOD#Cashew 250g#300
+FOOD#Peanut Butter#150
+FOOD#Coca-Cola#50
+CLOTHES#Levi's Men's  Pant#1400
+OTHER#Sensodyne  Toothpaste#140
+CLOTHES#Men's Dual  Socks 12 Pairs#800
+OTHER#LEGO Star Wars#3000
+FOOD#Paneer Butter Masala #180

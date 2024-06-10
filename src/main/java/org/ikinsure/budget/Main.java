@@ -63,7 +63,7 @@ public class Main {
                 } else {
                     System.out.println("All:");
                     System.out.println(manager.getSortedList(null));
-                    System.out.println("Total: $" + format.format(manager.getCurrentSum()));
+                    System.out.println("Total: ₹" + format.format(manager.getCurrentSum()));
                 }
                 break;
             case 2:
@@ -79,9 +79,9 @@ public class Main {
                             totalSum += p.getPrice();
                         }
                     }
-                    System.out.println(category.description + " - $" + format.format(sum));
+                    System.out.println(category.description + " - ₹" + format.format(sum));
                 }
-                System.out.println("Total sum: $" + format.format(totalSum));
+                System.out.println("Total sum: ₹" + format.format(totalSum));
                 break;
             case 3:
                 System.out.print("Choose the type of purchase\n" +
@@ -92,7 +92,7 @@ public class Main {
                 } else {
                     System.out.println("\n" + category.description + ":");
                     System.out.print(manager.getSortedList(category));
-                    System.out.println("Total sum: $" + format.format(manager.getCurrentSum()));
+                    System.out.println("Total sum: ₹" + format.format(manager.getCurrentSum()));
                 }
                 break;
             case 4:
@@ -151,7 +151,7 @@ public class Main {
     }
 
     private static void balance() {
-        System.out.println("\nBalance: $" + format.format(balance));
+        System.out.println("\nBalance: ₹" + format.format(balance));
     }
 
     private static void purchase() {
@@ -194,7 +194,7 @@ public class Main {
         Categories category = Categories.findById(input);
         System.out.println(category == null ? "\nAll:" : "\n" + category.description + ":");
         System.out.print(manager.getList(category));
-        System.out.println("Total sum: $" + format.format(manager.getCurrentSum()));
+        System.out.println("Total sum: ₹" + format.format(manager.getCurrentSum()));
         list();
     }
 }

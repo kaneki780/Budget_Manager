@@ -42,6 +42,6 @@ public class Purchase implements Comparable<Purchase> {
 
     @Override
     public String toString() {
-        return name + " $" + new DecimalFormat("#0.00").format(price);
+        return name + " ₹" + new DecimalFormat("#0.00").format(price);
     }
 }
