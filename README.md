@@ -53,9 +53,12 @@ Choose your action:
 6) Load
 7) Analyze (Sort)
 0) Exit
-> 6
 
-Purchases were loaded!
+>1
+
+Enter income: 
+14000
+Income was added!
 
 Choose your action:
 1) Add income
@@ -78,26 +81,23 @@ Choose the type of purchase
 > 5
 
 All:
-Cinema $8.73
-Gildan LT $8.61
-Hershey's milk chocolate bars $8.54
-Keystone Ground Beef $6.28
-Red Fuji Apple $5.99
-Eggs $3.99
-Almond 250g $35.43
-Almond 250g $35.43
-Skate rental $30.00
-FIJI Natural Artesian Water $25.98
-Wrangler Men's Stretch Cargo Pant $19.97
-Sensodyne Pronamel Toothpaste $19.74
-Men's Dual Defense Crew Socks 12 Pairs $13.00
-LEGO DUPLO Town Farm Animals $10.10
-Chick-fil-A $10 Gift Card $10.00
-Milk $3.50
-Debt $3.50
-Great Value Broccoli Florets $1.00
-Total sum: $249.79
-
+All:
+Movie Ticket ₹250.00
+Rice ₹50.00
+Cadbury's milk chocolate ₹120.00
+Milk ₹60.00
+Apple ₹90.00
+Eggs ₹30.00
+Almond 250g ₹250.00
+Cashew 250g ₹300.00
+Peanut Butter ₹150.00
+Coca-Cola ₹50.00
+Levi's Men's  Pant ₹1400.00
+Sensodyne  Toothpaste ₹140.00
+Men's Dual  Socks 12 Pairs ₹800.00
+Lego Star Wars ₹3000.00
+Paneer Butter Masala	 ₹180.00
+Total sum: ₹6870.00
 
 Choose your action:
 1) Add income
@@ -110,7 +110,7 @@ Choose your action:
 0) Exit
 > 4
 
-Balance: $964.57
+Balance: ₹7130.00
 
 Choose your action:
 1) Add income
@@ -128,29 +128,28 @@ How do you want to sort?
 2) Sort by type
 3) Sort certain type
 4) Back
-> 1
+> 2
 
-All:
-Almond 250g $35.43
-Almond 250g $35.43
-Skate rental $30.00
-FIJI Natural Artesian Water $25.98
-Wrangler Men's Stretch Cargo Pant $19.97
-Sensodyne Pronamel Toothpaste $19.74
-Men's Dual Defense Crew Socks 12 Pairs $13.00
-LEGO DUPLO Town Farm Animals $10.10
-Chick-fil-A $10 Gift Card $10.00
-Cinema $8.73
-Gildan LT $8.61
-Hershey's milk chocolate bars $8.54
-Keystone Ground Beef $6.28
-Red Fuji Apple $5.99
-Eggs $3.99
-Milk $3.50
-Debt $3.50
-Great Value Broccoli Florets $1.00
+Types:
+Food - ₹1280.00
+Entertainment - ₹250.00
+Clothes - ₹2200.00
+Other - ₹3140.00
+Total sum: ₹6870.00
 
-Total: $249.79
+Choose your action:
+1) Add income
+2) Add purchase
+3) Show list of purchases
+4) Balance
+5) Save
+6) Load
+7) Analyze (Sort)
+0) Exit
+0
+
+Bye!
+
 
 
 
